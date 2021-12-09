@@ -2,12 +2,12 @@ const express = require("express");
 const PORT = process.env.PORT || 3000;
 
 const app = express();
+app.use(express.json())
 
-const routes = require("./routes");
+const routes = require("./services");
 
 app.use((req, res, next) => {
 	if(req.query.method) req.method = req.query.method.toUpperCase()
-
 	next()
 })
 
@@ -18,5 +18,5 @@ app.all("*", (req, res) => {
 })
 
 app.listen(PORT, () => {
-	console.log(`Listening on PORT: ${PORT}`);
+	console.log(`PORT: ${PORT}`);
 });

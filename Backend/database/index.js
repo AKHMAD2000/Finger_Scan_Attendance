@@ -9,4 +9,8 @@ const db = new pg.Pool({
 	port: 5432,
 });
 
+db.query(`
+  SET TIMEZONE='Asia/Tashkent'
+`);
+
 module.exports = db;
