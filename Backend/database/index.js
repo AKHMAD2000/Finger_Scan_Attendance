@@ -2,7 +2,7 @@ const pg = require("pg");
 delete pg.native;
 
 const db = new pg.Pool({
-	user: "postgres",
+	user: "ahmad",
 	host: "localhost",
 	database: "finger_print",
 	password: "root",

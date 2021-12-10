@@ -226,7 +226,6 @@ client.get("/check_inspector", async (req, res) => {
 })
 
 client.get("/get_id", async (req, res) => {
-
 	
 	try {
 		let inspector = (await db.query(`

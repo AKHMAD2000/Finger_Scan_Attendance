@@ -9,7 +9,7 @@
 #include <arpa/inet.h>
 
 #define PORT 5600
-#define BACKEND_IP "http://192.168.0.112:3000/api"
+#define BACKEND_IP "http://192.168.31.194:3000/api"
 
 
 struct memory {
