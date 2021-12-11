@@ -1,2 +1,3 @@
-# Finger_Scan_Attendance
-Attendance checker by finger scan and id cards with arduino
+# Server part
+
+##### In terminal write `./start` to run the server
