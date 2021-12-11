@@ -1,2 +1,4 @@
-# Finger_Scan_Attendance
-Attendance checker by finger scan and id cards with arduino
+# Arduino part 
+To run the sketch please use arduino IDE
+Developed by the ESP32 controller
+
